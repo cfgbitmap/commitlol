@@ -1,0 +1,21 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "localhost",
+    "timeout": 30000
+  },
+  "cache": {
+    "maxSize": 2048,
+    "ttl": 300000
+  },
+  "processing": {
+    "batchSize": 150,
+    "maxRetries": 5,
+    "parallel": true
+  },
+  "output": {
+    "format": "json",
+    "compression": true,
+    "pretty": false
+  }
+}
